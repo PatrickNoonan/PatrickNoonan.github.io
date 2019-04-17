@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        type="text/css">
+    </link>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfoliostyles.css" type="text/css">
+    </link>
+</head>
+</head>
+
+<body class="homeBackground bodyBackground">
+    <div class="homePageNavigation">
+        <img class="logo" src="http://placekitten.com/50/50" alt="Logo" title="Logo">
+        <a href="index.html">Home</a>
+        <a href="portfolioprojects.html">Projects</a>
+        <a href="portfolioabout.html">About</a>
+        <a class="active" href="portfoliocontact.html">Contact</a>
+    </div>
+    <div class="blueSpaceImage">
+        <h1 class="centerText">Contact Me</h1>
+        <p class="centerText">What can I help you with?</p>
+    </div>
+
+    <div class="container socialContainer">
+        <p class="socialMediaHeader">Connect with my social media :)</p>
+        <div class="iconRow">
+            <a href="#"><i class="fab fa-twitter fa-4x"></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-4x"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g fa-4x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-4x"></i></a>
+            <a href="#"><i class="fab fa-github fa-4x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-4x"></i></a>
+            <a href="#"><i class="fab fa-snapchat fa-4x"></i></a>
+        </div>
+    </div>
+
+    <p class="socialMediaHeader">Get in touch directly</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="centerText"><i class="fas fa-paper-plane fa-2x"></i><br>Email</p>
+                <p class="contactColumns">If you want to email me you can reach me at <br>
+                    hiimpatrickandthisisfake@hotmail.com</p>
+            </div>
+            <div class="col-md-2 verticalLine"></div>
+            <div class="col-md-2">
+                <p class="centerText"><i class="fas fa-mobile-alt fa-2x"></i><br>Phone</p>
+                <p class="contactColumns">You can also reach my by phone or text <br> 123-456-7890</p>
+            </div>
+            <div class="col-md-2 verticalLine"></div>
+            <div class="col-md-3">
+                <p class="centerText"><i class="fas fa-envelope fa-2x"></i><br>Mail</p>
+                <p class="contactColumns">If you really insist on using snail mail you can use that to <br> 123 fake
+                    street Milwaukee, WI 53211</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <p class="formHeader">Please feel free to send me a message with your email attached, I try to reply to all messages
+        asap</p>
+
+    <div class="container contactForm">
+        <form action="sendsomewhere?">
+            <div class="row formPadding">
+                <div class="col-md-2 centerText">
+                    <label for="firstName">First Name:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" id="firstName" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 centerText">
+                    <label for="lastName">Last Name:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" id="lastName" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+
+            <div class="row formPadding">
+                <div class="col-md-2 centerText">
+                    <label class="emailLabel" for="email">Email:</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" id="email" name="email" placeholder="Your email address..">
+                </div>
+            </div>
+
+            <div class="row formPadding">
+                <div class="col-md-2 centerText">
+                    <label class="countryLabel" for="country">Country</label>
+                </div>
+                <div class="col-md-10">
+                    <select id="country" name="country">
+                        <option value="USA">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Other">SomethingElse</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="row formPadding">
+                <div class="col-md-2 centerText">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-md-10">
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-10">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
